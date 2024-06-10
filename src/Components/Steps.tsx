@@ -22,9 +22,9 @@ export default function Steps() {
                     <div className="max-w-xl" data-aos="zoom-in-right">
                         <p className="mb-8 leading-relaxed font-bold text-blue-500"><FontAwesomeIcon icon={faCircleNotch} className='text-rose-700 mx-2' /> REAL BUSINESSES REAL RESULTS </p>
 
-                        <h2 className="text-3xl font-bold sm:text-4xl">We Find You Best MCA Leads in 4 Easy Steps</h2>
+                        <h2 className="text-2xl font-bold sm:text-4xl sm:p-0 p-2">We Find You Best MCA Leads in 4 Easy Steps</h2>
 
-                        <p className="mt-4 text-gray-300">
+                        <p className="mt-4 text-gray-300 sm:p-0 p-2">
                             Leveraging advanced sourcing and verification we connect you with borrowers actively seeking funding maximizing your conversion potential.
 
                             From targeted live transfers to pre-qualified callbacks we tap diverse channels to deliver

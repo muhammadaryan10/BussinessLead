@@ -186,7 +186,7 @@ const Home = () => {
           <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <div className="flex justify-start">
-                <Image alt="Description of the image" width={500} height={400} src="https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/Untitled-design-2-1-1024x341.webp" className="h-24 " />
+                <Image alt="Description of the image" width={500} height={400} src="https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/Untitled-design-2-1-1024x341.webp" className="h-24 w-48" />
               </div>
               <h1 className="title-font sm:text-5xl text-3xl mb-4 font-bold text-white pt-20">Get the Best MCA
                 <TypewriterEffectSmooth words={words} />
@@ -218,7 +218,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <div className="h-[13rem] flex flex-col antialiased bg-gray-800 dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+      <div className="h-[13rem flex flex-col antialiased bg-gray-800 dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
         <InfiniteMovingCards
           items={testimonials}
           direction="right"
