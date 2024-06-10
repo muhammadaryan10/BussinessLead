@@ -1,19 +1,13 @@
-import { Spotlight } from "@/Components/ui/Spotlight";
 import { HoverEffect } from "@/Components/ui/card-hover-effect";
 import { InfiniteMovingCards } from "@/Components/ui/infinite-moving-cards";
-import { StickyScroll } from "@/Components/ui/sticky-scroll-reveal";
 import { faCircleNotch } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import WhyChooseUs from '../Components/WhyChooseUs'
-import Hero from '../Components/Hero'
-import { Hero2 } from "@/Components/Hero2";
 import { Button } from "@/Components/ui/MovingBorder";
 import { TypewriterEffectSmooth } from "@/Components/typewriterEffect";
-import home from '../assests/home.webp'
 import { SignupFormDemo } from "@/Components/Form";
 import Steps from "@/Components/Steps";
-import { useEffect } from "react";
 import { Stats } from "@/Components/Stats";
 import { Footer } from "@/Components/Footer";
 import Consultation from "@/Components/Consultation";
@@ -88,7 +82,7 @@ const words = [
 
 ];
 
-export const projects = [
+const projects = [
   {
     title: "I recommend Business Leads World",
     description:
@@ -145,6 +139,27 @@ export const projects = [
   },
 ];
 
+const testimonials = [
+  {
+    link: 'https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2023/12/RFR-Best-MCA-Leads-Client.webp'
+  },
+  {
+    link: 'https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2023/12/Peach-Capital-Best-MCA-Leads-Client.webp'
+  },
+  {
+    link: 'https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/brand-8.webp'
+  },
+  {
+    link: 'https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/Pro-Source-Lending-Group-Best-MCA-Leads-Client.webp'
+  },
+  {
+    link: 'https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2023/12/Experts-Funding-Group-Best-MCA-Leads-Client.webp'
+  },
+  {
+    link: 'https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/brand-7.webp'
+  }
+];
+
 export default function Home() {
 
   return (
@@ -171,7 +186,7 @@ export default function Home() {
           <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <div className="flex justify-start">
-                <Image   alt="Description of the image" width={500} height={400} src="https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/Untitled-design-2-1-1024x341.webp" className="h-24 " />
+                <Image alt="Description of the image" width={500} height={400} src="https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/Untitled-design-2-1-1024x341.webp" className="h-24 " />
               </div>
               <h1 className="title-font sm:text-5xl text-3xl mb-4 font-bold text-white pt-20">Get the Best MCA
                 <TypewriterEffectSmooth words={words} />
@@ -193,8 +208,6 @@ export default function Home() {
         </section>
       </div>
       <WhyChooseUs />
-
-      {/* <Hero2/> */}
       <section className="bg-gray-800">
         <div className="container mx-auto flex px-5 pt-24 items-center justify-center flex-col">
           <div className="text-center lg:w-2/3 w-full">
@@ -219,10 +232,9 @@ export default function Home() {
           speed="slow"
         />
       </div>
-      <Consultation/>
+      <Consultation />
       <Stats />
-      {/* <StickyScroll content={content} /> */}
-       <section className="bg-white">
+      <section className="bg-white">
         <div className="container mx-auto flex px-5 pt-20 items-center justify-center flex-col">
           <div className="text-center lg:w-2/3 w-full">
             <p className="mb-8 leading-relaxed font-bold text-blue-500"><FontAwesomeIcon icon={faCircleNotch} className='text-rose-700 mx-2' /> REAL BUSINESSES REAL RESULTS </p>
@@ -233,31 +245,10 @@ export default function Home() {
       </section>
       <HoverEffect items={projects} />
       <Steps />
-     
-      {/* <Hero /> */}
       <Footer />
     </>
   );
 }
 
 
-const testimonials = [
-  {
-    link: 'https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2023/12/RFR-Best-MCA-Leads-Client.webp'
-  },
-  {
-    link: 'https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2023/12/Peach-Capital-Best-MCA-Leads-Client.webp'
-  },
-  {
-    link: 'https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/brand-8.webp'
-  },
-  {
-    link: 'https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/Pro-Source-Lending-Group-Best-MCA-Leads-Client.webp'
-  },
-  {
-    link: 'https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2023/12/Experts-Funding-Group-Best-MCA-Leads-Client.webp'
-  },
-  {
-    link: 'https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/brand-7.webp'
-  }
-];
+
