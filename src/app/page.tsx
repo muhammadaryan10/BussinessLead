@@ -212,8 +212,8 @@ const Home = () => {
         <div className="container mx-auto flex px-5 pt-24 items-center justify-center flex-col">
           <div className="text-center lg:w-2/3 w-full">
             <p className="mb-8 leading-relaxed text-yellow-500"> TELL US YOUR NEEDS WE ALL FIND THE BEST LEADS</p>
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Boost Your Conversion Rates with Verified MCA Data</h1>
-            <p className="mb-8 leading-relaxed text-white">Leads are screened for their current need for funding, ensuring you connect with borrowers actively seeking financing solutions.
+            <h1 className="title-font sm:text-4xl text-2xl mb-4 font-medium text-white">Boost Your Conversion Rates with Verified MCA Data</h1>
+            <p className="mb-8 leading-relaxed text-white sm:text-lg  text-xs">Leads are screened for their current need for funding, ensuring you connect with borrowers actively seeking financing solutions.
               We adhere to all industry regulations and data privacy laws to deliver compliant and reliable leads.</p>
           </div>
         </div>
@@ -239,7 +239,7 @@ const Home = () => {
           <div className="text-center lg:w-2/3 w-full">
             <p className="mb-8 leading-relaxed font-bold text-blue-500"><FontAwesomeIcon icon={faCircleNotch} className='text-rose-700 mx-2' /> REAL BUSINESSES REAL RESULTS </p>
             <h1 className="title-font sm:text-5xl text-2xl mb-4 font-bold text-gray-800">What Our Clients Say About Us</h1>
-            <p className="mb-8 leading-relaxed text-gray-500 px-10">Witness the success stories of everyday businesses just like yours thriving with our best MCA leads.</p>
+            <p className="mb-8 leading-relaxed text-gray-500 px-10 ">Witness the success stories of everyday businesses just like yours thriving with our best MCA leads.</p>
           </div>
         </div>
       </section>

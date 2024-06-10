@@ -19,7 +19,7 @@ export default function WhyChooseUs() {
     <>
 
       <section className="overflow-hidden py-8 px-1 sm:py-16 "  style={{ backgroundColor: '#f2f6f9' }}>
-        <div className="mx-auto max-w-7xl px-1 sm:px-8">
+        <div className="mx-auto max-w-7xl px-2 sm:px-8">
           <div className="mx-auto grid max-w-4xl grid-cols-1 gap-x-4 gap-y-16 sm:gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="lg:pr-8 lg:pt-4" data-aos="fade-right">
               <div className="lg:max-w-lg">
@@ -90,7 +90,7 @@ export default function WhyChooseUs() {
               </div>
             </div>
             <CardContainer className="inter-var">
-              <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+              <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-3 sm:p-6 border  ">
                 <CardItem
                   translateZ="50"
                   className="text-xl font-bold text-neutral-600 dark:text-white"
