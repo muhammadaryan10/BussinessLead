@@ -221,7 +221,7 @@ export default function Home() {
       </div>
       <Consultation/>
       <Stats />
-      <StickyScroll content={content} />
+      {/* <StickyScroll content={content} /> */}
       <Steps />
       <section className="bg-white">
         <div className="container mx-auto flex px-5 pt-20 items-center justify-center flex-col">
