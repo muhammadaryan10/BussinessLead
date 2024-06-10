@@ -34,7 +34,7 @@ export default function Stats() {
                                     duration={3}
                                     delay={0}
                                 />}
-                                k
+                                151.4 k
                             </h6>
                             <p className="mb-2 font-bold text-white">Leads</p>
                             <p className="text-white">
@@ -64,7 +64,7 @@ export default function Stats() {
                                     end={37.6}
                                     duration={3}
                                     delay={0}
-                                />}M
+                                />}550 M
                             </h6>
                             <p className="mb-2 font-bold text-white">Revenue</p>
                             <p className="text-white">
@@ -93,7 +93,7 @@ export default function Stats() {
                                 prefix="$"
                                 duration={3}
                                 delay={0}
-                            />}M</h6>
+                            />}222 M</h6>
                             <p className="mb-2 font-bold text-white">Client</p>
                             <p className="text-white">
                                 Client Pipeline Generated
