@@ -18,8 +18,8 @@ export default function WhyChooseUs() {
   return (
     <>
 
-      <section className="overflow-hidden py-8 px-5 sm:py-16 "  style={{ backgroundColor: '#f2f6f9' }}>
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <section className="overflow-hidden py-8 px-1 sm:py-16 "  style={{ backgroundColor: '#f2f6f9' }}>
+        <div className="mx-auto max-w-7xl px-1 sm:px-8">
           <div className="mx-auto grid max-w-4xl grid-cols-1 gap-x-4 gap-y-16 sm:gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="lg:pr-8 lg:pt-4" data-aos="fade-right">
               <div className="lg:max-w-lg">

@@ -20,7 +20,7 @@ export function SignupFormDemo() {
     alert("Form submitted");
   };
   return (
-    <div className="max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black" data-aos="fade-left">
+    <div className="max-w-md w-full mx-0 rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black" data-aos="fade-left">
       <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200">
       Verified Leads Instant Conversions
       </h2>
