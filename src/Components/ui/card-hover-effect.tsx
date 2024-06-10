@@ -29,7 +29,7 @@
         return (
             <div
                 className={cn(
-                    "grid grid-cols-1 md:grid-cols-2 bg-white lg:grid-cols-3  p-10",
+                    "grid grid-cols-1 md:grid-cols-2 bg-white lg:grid-cols-3  p-3 sm:p-10",
                     className
                 )}
             >
