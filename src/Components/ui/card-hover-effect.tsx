@@ -18,6 +18,8 @@
             description: string;
             link: string;
             name:string;
+            desigination:string;
+            firm:string;
         }[];
         className?: string;
     }) => {
