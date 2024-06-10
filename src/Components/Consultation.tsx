@@ -38,12 +38,12 @@ export default function Consultation() {
                                 <p className="mb-8 leading-relaxed font-bold text-blue-500"><FontAwesomeIcon icon={faCircleNotch} className='text-rose-700 mx-2' /> REAL BUSINESSES, REAL RESULTS </p>
 
                                 <h2 className="text-2xl font-bold sm:text-3xl">
-                                    Feel lost in generic leads?
+                                    Feel lost in generic leads 
                                     We deliver targeted MCA Leads that convert fast.                               </h2>
 
                                 <p className="mt-4 text-gray-600">
-                                    No more feeling lost! Get a FREE Consultation with our expert MCA Lead advisor.
-                                    We'll listen to your specific needs, analyze your current approach, and
+                                    No more feeling lost Get a FREE Consultation with our expert MCA Lead advisor.
+                                    We All listen to your specific needs analyze your current approach and
                                     tailor a customized lead strategy guaranteed to
                                     boost your business growth.
                                 </p>

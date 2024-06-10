@@ -26,9 +26,9 @@ export default function WhyChooseUs() {
               <div className="lg:max-w-lg">
                 <h2 className="text-base font-semibold leading-7 text-blue-500">WHO WE ARE</h2>
                 <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">We Are Business Leads World</p>
-                <p className="mt-6 text-sm leading-7 text-gray-600">We bring pre-verified borrowers seeking MCAs, Business Loans, and more directly
+                <p className="mt-6 text-sm leading-7 text-gray-600">We bring pre-verified borrowers seeking MCAs Business Loans and more directly
                   to your doorstep. Whether you need the prospects for cash injection or a strategic
-                  long-term partnership, we deliver the perfect fit, fueling your business growth
+                  long-term partnership we deliver the perfect fit fueling your business growth
                   from the ground up.
                 </p>
                 <h2 className="text-base font-semibold py-2 leading-7 text-blue-500">WHY CHOOSE US</h2>
@@ -60,7 +60,7 @@ export default function WhyChooseUs() {
                       </svg>
                       Proven Results
                     </dt>
-                    <dd className="inline pl-2">We track, test, and optimize to ensure you get the best MCA leads that convert.</dd>
+                    <dd className="inline pl-2">We track test and optimize to ensure you get the best MCA leads that convert.</dd>
                   </div>
                   <div className="relative pl-9">
                     <dt className="inline pl-2 font-semibold text-gray-900"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
@@ -96,14 +96,14 @@ export default function WhyChooseUs() {
                   translateZ="50"
                   className="text-xl font-bold text-neutral-600 dark:text-white"
                 >
-                  Start Connecting with Qualified Borrowers Today!
+                  Start Connecting with Qualified Borrowers Today
                 </CardItem>
                 <CardItem
                   as="p"
                   translateZ="60"
                   className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
                 >
-                  Whether you have questions about our MCA and Business Loan leads, need help customizing your search, or want to chat about your financial goals, we're here
+                  Whether you have questions about our MCA and Business Loan leads need help customizing your search or want to chat about your financial goals we are here
                   to help.
                 </CardItem>
                 <CardItem translateZ="100" className="w-full mt-4">

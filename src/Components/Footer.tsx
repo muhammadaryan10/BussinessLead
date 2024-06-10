@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Footer = () => {
     return (
-      <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 bg-gray-800">
+      <div className="px-4 mt-8 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 bg-gray-800">
         <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
           <div className="sm:col-span-2">
           <Image   alt="Description of the image" width={500} height={400} src="https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/Untitled-design-2-1-1024x341.webp" className="h-20 w-48"/>

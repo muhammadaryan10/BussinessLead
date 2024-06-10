@@ -20,14 +20,14 @@ export default function Steps() {
             <section className="bg-gray-800 text-white">
                 <div className="max-w-screen-xl  py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
                     <div className="max-w-xl" data-aos="zoom-in-right">
-                        <p className="mb-8 leading-relaxed font-bold text-blue-500"><FontAwesomeIcon icon={faCircleNotch} className='text-rose-700 mx-2' /> REAL BUSINESSES, REAL RESULTS </p>
+                        <p className="mb-8 leading-relaxed font-bold text-blue-500"><FontAwesomeIcon icon={faCircleNotch} className='text-rose-700 mx-2' /> REAL BUSINESSES REAL RESULTS </p>
 
-                        <h2 className="text-3xl font-bold sm:text-4xl">We Find You Best MCA Leads in 4 Easy Steps!</h2>
+                        <h2 className="text-3xl font-bold sm:text-4xl">We Find You Best MCA Leads in 4 Easy Steps</h2>
 
                         <p className="mt-4 text-gray-300">
-                            Leveraging advanced sourcing and verification, we connect you with borrowers actively seeking funding, maximizing your conversion potential.
+                            Leveraging advanced sourcing and verification we connect you with borrowers actively seeking funding maximizing your conversion potential.
 
-                            From targeted live transfers to pre-qualified callbacks, we tap diverse channels to deliver
+                            From targeted live transfers to pre-qualified callbacks we tap diverse channels to deliver
                             a steady stream of high-quality leads.
                         </p>
                     </div>
@@ -82,7 +82,7 @@ export default function Steps() {
                                     </h3>
                                     <div className="text-base !m-0 !p-0 font-normal">
                                         <span className="text-slate-500 ">
-                                            Leads are screened for their current need for funding, ensuring you connect with active borrowers.
+                                            Leads are screened for their current need for funding ensuring you connect with active borrowers.
                                         </span>
                                     </div>
                                 </div>

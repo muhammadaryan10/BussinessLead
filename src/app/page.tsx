@@ -90,16 +90,16 @@ const words = [
 
 export const projects = [
   {
-    title: "I recommend Business Leads World!",
+    title: "I recommend Business Leads World",
     description:
-      "Before working with you, chasing leads was a nightmare. Now, qualified borrowers come to me! My conversion rate tripled, and my business is booming.",
+      "Before working with you chasing leads was a nightmare. Now qualified borrowers come to me My conversion rate tripled and my business is booming",
     link: "https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/2.webp",
     name: 'Cole Miller',
     desigination: 'CEO,',
     firm: 'IT Firm'
   },
   {
-    title: "Their Live Transfer Leads are the best!",
+    title: "Their Live Transfer Leads are the best",
     description:
       "Their leads reduced our effort in generating leads and saved us a lot of time. Our closing ratio has increased significantly since we started using Business Leads World.",
     link: "https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/Client-Faces-Thumbnails-for-BLW-Landing-Page-1.webp",
@@ -108,25 +108,25 @@ export const projects = [
     firm: 'Experts Funding Group'
   },
   {
-    title: "Their MCA Data is the best! Thank you, BLW!",
+    title: "Their MCA Data is the best! Thank you BLW",
     description:
-      "My marketing efforts weren't generating the right funding leads. Your targeted Business Loan Leads changed everything for my business.",
+      "My marketing efforts were not generating the right funding leads. Your targeted Business Loan Leads changed everything for my business.",
     link: "https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/Client-Faces-Thumbnails-for-BLW-Landing-Page.webp",
     name: 'Michael Lee',
     desigination: 'CFO,',
     firm: 'Fintech Firm'
   },
   {
-    title: "I recommend Business Leads World!",
+    title: "I recommend Business Leads World",
     description:
-      "Before working with you, chasing leads was a nightmare. Now, qualified borrowers come to me! My conversion rate tripled, and my business is booming.",
+      "Before working with you chasing leads was a nightmare. Now qualified borrowers come to me My conversion rate tripled and my business is booming.",
     link: "https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/2.webp",
     name: 'Cole Miller',
     desigination: 'CEO,',
     firm: 'IT Firm'
   },
   {
-    title: "Their Live Transfer Leads are the best!",
+    title: "Their Live Transfer Leads are the best",
     description:
       "Their leads reduced our effort in generating leads and saved us a lot of time. Our closing ratio has increased significantly since we started using Business Leads World.",
     link: "https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/Client-Faces-Thumbnails-for-BLW-Landing-Page-1.webp",
@@ -135,9 +135,9 @@ export const projects = [
     firm: 'Experts Funding Group'
   },
   {
-    title: "Their MCA Data is the best! Thank you, BLW!",
+    title: "Their MCA Data is the best Thank you BLW!",
     description:
-      "My marketing efforts weren't generating the right funding leads. Your targeted Business Loan Leads changed everything for my business.",
+      "My marketing efforts were not generating the right funding leads. Your targeted Business Loan Leads changed everything for my business.",
     link: "https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/Client-Faces-Thumbnails-for-BLW-Landing-Page.webp",
     name: 'Michael Lee',
     desigination: 'CFO,',
@@ -176,7 +176,7 @@ export default function Home() {
               <h1 className="title-font sm:text-5xl text-3xl mb-4 font-bold text-white pt-20">Get the Best MCA
                 <TypewriterEffectSmooth words={words} />
               </h1>
-              <p className="mb-8 leading-relaxed text-white">Business Leads World specializes in connecting you with high-quality leads for Merchant Cash Advances (MCAs), Business Loans, Live Transfers, and everything
+              <p className="mb-8 leading-relaxed text-white">Business Leads World specializes in connecting you with high-quality leads for Merchant Cash Advances (MCAs)  Business Loans  Live Transfers  and everything
                 in between.</p>
               <div className="flex justify-center">
                 <Button
@@ -198,7 +198,7 @@ export default function Home() {
       <section className="bg-gray-800">
         <div className="container mx-auto flex px-5 pt-24 items-center justify-center flex-col">
           <div className="text-center lg:w-2/3 w-full">
-            <p className="mb-8 leading-relaxed text-yellow-500"> TELL US YOUR NEEDS; WE'LL FIND THE BEST LEADS!</p>
+            <p className="mb-8 leading-relaxed text-yellow-500"> TELL US YOUR NEEDS WE ALL FIND THE BEST LEADS</p>
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Boost Your Conversion Rates with Verified MCA Data</h1>
             <p className="mb-8 leading-relaxed text-white">Leads are screened for their current need for funding, ensuring you connect with borrowers actively seeking financing solutions.
               We adhere to all industry regulations and data privacy laws to deliver compliant and reliable leads.</p>
@@ -222,17 +222,18 @@ export default function Home() {
       <Consultation/>
       <Stats />
       {/* <StickyScroll content={content} /> */}
-      <Steps />
-      <section className="bg-white">
+       <section className="bg-white">
         <div className="container mx-auto flex px-5 pt-20 items-center justify-center flex-col">
           <div className="text-center lg:w-2/3 w-full">
-            <p className="mb-8 leading-relaxed font-bold text-blue-500"><FontAwesomeIcon icon={faCircleNotch} className='text-rose-700 mx-2' /> REAL BUSINESSES, REAL RESULTS </p>
+            <p className="mb-8 leading-relaxed font-bold text-blue-500"><FontAwesomeIcon icon={faCircleNotch} className='text-rose-700 mx-2' /> REAL BUSINESSES REAL RESULTS </p>
             <h1 className="title-font sm:text-5xl text-2xl mb-4 font-bold text-gray-800">What Our Clients Say About Us</h1>
-            <p className="mb-8 leading-relaxed text-gray-500 px-10">Witness the success stories of everyday businesses just like yours, thriving with our best MCA leads.</p>
+            <p className="mb-8 leading-relaxed text-gray-500 px-10">Witness the success stories of everyday businesses just like yours thriving with our best MCA leads.</p>
           </div>
         </div>
       </section>
       <HoverEffect items={projects} />
+      <Steps />
+     
       {/* <Hero /> */}
       <Footer />
     </>
