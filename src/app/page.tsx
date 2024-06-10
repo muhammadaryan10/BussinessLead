@@ -8,7 +8,7 @@ import { Button } from "@/Components/ui/MovingBorder";
 import { TypewriterEffectSmooth } from "@/Components/typewriterEffect";
 import { SignupFormDemo } from "@/Components/Form";
 import Steps from "@/Components/Steps";
-import { Stats } from "@/Components/Stats";
+import  Stats  from "@/Components/Stats";
 import { Footer } from "@/Components/Footer";
 import Consultation from "@/Components/Consultation";
 
@@ -160,7 +160,7 @@ const testimonials = [
   }
 ];
 
-export default function Home() {
+const Home = () => {
 
   return (
     <>
@@ -251,4 +251,4 @@ export default function Home() {
 }
 
 
-
+export default Home;
