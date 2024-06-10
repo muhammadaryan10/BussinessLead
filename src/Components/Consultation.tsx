@@ -29,7 +29,7 @@ export default function Consultation() {
                             </div>
                         </div>
 
-                        <div className="relative flex items-center bg-gray-100" data-aos="fade-left">
+                        <div className="relative flex items-center bg-gray-100" >
                             <span
                                 className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-100"
                             ></span>

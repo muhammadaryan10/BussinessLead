@@ -38,7 +38,7 @@ export default function Steps() {
                                 href="Data Source Validation"
                             >
                                 <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[14rem] h-[18rem] ">
-                                    <Image   alt="Description of the image" width={500} height={400} src='https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/manage_search.webp' className='bg-blue-500 mb-4 h-16 w-16 p-2' />
+                                    <Image   alt="Description of the image" width={500} height={400} src='https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/manage_search.webp' className='bg-blue-500 mb-4 h-16 w-16  p-2' />
                                     <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-xl text-black">
                                         1. Data Source Validation
                                     </h3>
