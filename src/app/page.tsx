@@ -209,9 +209,9 @@ const Home = () => {
       </div>
       <WhyChooseUs />
       <section className="bg-gray-800">
-        <div className="container mx-auto flex px-5 pt-24 items-center justify-center flex-col">
+        <div className="container mx-auto flex px-5 sm:pt-24 pt-12 items-center justify-center flex-col">
           <div className="text-center lg:w-2/3 w-full">
-            <p className="mb-8 leading-relaxed text-yellow-500 sm:text-md text-xs"> TELL US YOUR NEEDS WE ALL FIND THE BEST LEADS</p>
+            <p className="mb-8 leading-relaxed text-yellow-500 sm:text-lg text-xs"> TELL US YOUR NEEDS WE ALL FIND THE BEST LEADS</p>
             <h1 className="title-font sm:text-4xl text-xl mb-4 font-medium text-white">Boost Your Conversion Rates with Verified MCA Data</h1>
             <p className="mb-8 leading-relaxed text-white sm:text-lg  text-xs">Leads are screened for their current need for funding, ensuring you connect with borrowers actively seeking financing solutions.
               We adhere to all industry regulations and data privacy laws to deliver compliant and reliable leads.</p>

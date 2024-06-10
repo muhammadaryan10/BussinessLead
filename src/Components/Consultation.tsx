@@ -41,7 +41,7 @@ export default function Consultation() {
                                     Feel lost in generic leads 
                                     We deliver targeted MCA Leads that convert fast.                               </h2>
 
-                                <p className="mt-4 text-gray-600 sm-text-xs text-md">
+                                <p className="mt-4 text-gray-600 sm:text-lg text-xs">
                                     No more feeling lost Get a FREE Consultation with our expert MCA Lead advisor.
                                     We All listen to your specific needs analyze your current approach and
                                     tailor a customized lead strategy guaranteed to
