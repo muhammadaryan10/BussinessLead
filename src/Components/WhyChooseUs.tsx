@@ -3,7 +3,6 @@
 import Image from "next/image";
 import React, { useEffect } from "react";
 import { CardBody, CardContainer, CardItem } from "../Components/ui/Card";
-import Link from "next/link";
 import { Button } from '../Components/ui/MovingBorder'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
