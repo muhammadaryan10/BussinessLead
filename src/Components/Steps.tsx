@@ -31,7 +31,7 @@ export default function Steps() {
                             a steady stream of high-quality leads.
                         </p>
                     </div>
-                    <div className="mt-8 grid grid-cols-1 gap-0 space-y-4 md:mt-16 md:grid-cols-2  lg:grid-cols-4">
+                    <div className="mt-8 grid grid-cols-1 gap-0 space-y-4 md:mt-16 md:grid-cols-2  lg:grid-cols-3">
                         <div className=" w-full flex items-center justify-center ">
                             <PinContainer
                                 title="Data Source Validation"
@@ -88,7 +88,7 @@ export default function Steps() {
                                 </div>
                             </PinContainer>
                         </div>
-                        <div className=" w-full flex items-center justify-center ">
+                        {/* <div className=" w-full flex items-center justify-center ">
                             <PinContainer
                                 title="Compliance Checks"
                                 href=""
@@ -106,7 +106,7 @@ export default function Steps() {
                                     </div>
                                 </div>
                             </PinContainer>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

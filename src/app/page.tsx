@@ -110,33 +110,6 @@ const projects = [
     desigination: 'CFO,',
     firm: 'Fintech Firm'
   },
-  {
-    title: "I recommend Business Leads World",
-    description:
-      "Before working with you chasing leads was a nightmare. Now qualified borrowers come to me My conversion rate tripled and my business is booming.",
-    link: "https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/2.webp",
-    name: 'Cole Miller',
-    desigination: 'CEO,',
-    firm: 'IT Firm'
-  },
-  {
-    title: "Their Live Transfer Leads are the best",
-    description:
-      "Their leads reduced our effort in generating leads and saved us a lot of time. Our closing ratio has increased significantly since we started using Business Leads World.",
-    link: "https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/Client-Faces-Thumbnails-for-BLW-Landing-Page-1.webp",
-    name: 'Maxwell Frost',
-    desigination: 'Owner,',
-    firm: 'Experts Funding Group'
-  },
-  {
-    title: "Their MCA Data is the best Thank you BLW!",
-    description:
-      "My marketing efforts were not generating the right funding leads. Your targeted Business Loan Leads changed everything for my business.",
-    link: "https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/Client-Faces-Thumbnails-for-BLW-Landing-Page.webp",
-    name: 'Michael Lee',
-    desigination: 'CFO,',
-    firm: 'Fintech Firm'
-  },
 ];
 
 const testimonials = [
@@ -183,7 +156,7 @@ const Home = () => {
       </div> */}
       <div className="Image" >
         <section className="text-gray-600 body-font  min-h-[90vh] section">
-          <div className="container mx-auto flex sm:px-5  px-2 py-16 sm:py-24  md:flex-row flex-col items-center">
+          <div className="container mx-auto flex sm:px-5  px-2 py-12 sm:py-24  md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <div className="flex justify-start">
                 <Image alt="Description of the image" width={500} height={400} src="https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/Untitled-design-2-1-1024x341.webp" className="h-24 w-48" />
@@ -235,11 +208,11 @@ const Home = () => {
       <Consultation />
       <Stats />
       <section className="bg-white">
-        <div className="container mx-auto flex px-5 pt-20 items-center justify-center flex-col">
+        <div className="container mx-auto flex px-5 sm:pt-20 pt-12  items-center justify-center flex-col">
           <div className="text-center lg:w-2/3 w-full">
             <p className="mb-8 leading-relaxed font-bold text-blue-500"><FontAwesomeIcon icon={faCircleNotch} className='text-rose-700 mx-2' /> REAL BUSINESSES REAL RESULTS </p>
-            <h1 className="title-font sm:text-5xl text-2xl mb-4 font-bold text-gray-800">What Our Clients Say About Us</h1>
-            <p className="mb-8 leading-relaxed text-gray-500 ">Witness the success stories of everyday businesses just like yours thriving with our best MCA leads.</p>
+            <h1 className="title-font sm:text-5xl text-xl mb-4 font-bold text-gray-800">What Our Clients Say About Us</h1>
+            <p className="mb-8 leading-relaxed text-gray-500 sm:text-lg  text-xs ">Witness the success stories of everyday businesses just like yours thriving with our best MCA leads.</p>
           </div>
         </div>
       </section>
