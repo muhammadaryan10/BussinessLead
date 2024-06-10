@@ -17,6 +17,7 @@
             title: string;
             description: string;
             link: string;
+            name:string;
         }[];
         className?: string;
     }) => {
