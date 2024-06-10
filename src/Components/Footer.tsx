@@ -28,7 +28,7 @@ export const Footer = () => {
                 title="Our phone"
                 className="transition-colors duration-300 text-deep-purple-accent-400 text-white hover:text-deep-purple-800"
               >
-                850-123-5021
+                (716) 220-8563
               </a>
             </div>
             <div className="flex">
@@ -39,7 +39,7 @@ export const Footer = () => {
                 title="Our email"
                 className="transition-colors duration-300 text-deep-purple-accent-400 text-white hover:text-deep-purple-800"
               >
-                info@lorem.mail
+               info@businessleadsworld.com
               </a>
             </div>
             <div className="flex">
