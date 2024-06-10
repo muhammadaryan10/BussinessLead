@@ -91,7 +91,7 @@ export const InfiniteMovingCards = ({
               background:
                 "white",
             }}
-            key={item.name}
+            key={item.title}
           >
             <blockquote>
               <div
