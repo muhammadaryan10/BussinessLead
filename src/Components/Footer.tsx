@@ -10,10 +10,6 @@ export const Footer = () => {
               <p className="text-sm text-white">
               Business Leads World specializes in connecting you with high-quality leads for Merchant Cash Advances (MCAs), Business Loans, Live Transfers, and everything in between.
               </p>
-              <p className="mt-4 text-sm text-white">
-                Eaque ipsa quae ab illo inventore veritatis et quasi architecto
-                beatae vitae dicta sunt explicabo.
-              </p>
             </div>
           </div>
           <div className="space-y-2 text-sm">
@@ -52,7 +48,7 @@ export const Footer = () => {
                 title="Our address"
                 className="transition-colors duration-300 text-deep-purple-accent-400 text-white hover:text-deep-purple-800"
               >
-                312 Lovely Street, NY
+                38-11 Ditmars Blvd, Queens, NY, USA
               </a>
             </div>
           </div>
@@ -87,10 +83,9 @@ export const Footer = () => {
                 </svg>
               </a>
             </div>
-            <p className="mt-4 text-sm text-white">
-              Bacon ipsum dolor amet short ribs pig sausage prosciutto chicken
-              spare ribs salami.
-            </p>
+            {/* <p className="mt-4 text-sm text-white">
+              Follow Us 
+            </p> */}
           </div>
         </div>
         <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
