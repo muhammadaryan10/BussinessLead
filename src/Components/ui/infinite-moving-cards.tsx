@@ -12,10 +12,7 @@ export const InfiniteMovingCards = ({
   className,
 }: {
   items: {
-    quote: string;
-    name: string;
     title: string;
-    link:string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -102,7 +99,7 @@ export const InfiniteMovingCards = ({
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
               <span className="flex justify-center items-center z-20 text-sm leading-[1.6] text-gray-100 font-normal">
-                <Image   alt="Description of the image" width={500} height={400} className="h-full w-40 text-center text-black" src={item.link}/>
+                <Image alt="Description of the image" width={500} height={400} className="h-full w-40 text-center text-black" src={item.title} />
               </span>
 
             </blockquote>

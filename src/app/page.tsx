@@ -141,22 +141,22 @@ const projects = [
 
 const testimonials = [
   {
-    link: 'https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2023/12/RFR-Best-MCA-Leads-Client.webp'
+    title: 'https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2023/12/RFR-Best-MCA-Leads-Client.webp'
   },
   {
-    link: 'https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2023/12/Peach-Capital-Best-MCA-Leads-Client.webp'
+    title: 'https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2023/12/Peach-Capital-Best-MCA-Leads-Client.webp'
   },
   {
-    link: 'https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/brand-8.webp'
+    title: 'https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/brand-8.webp'
   },
   {
-    link: 'https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/Pro-Source-Lending-Group-Best-MCA-Leads-Client.webp'
+    title: 'https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/Pro-Source-Lending-Group-Best-MCA-Leads-Client.webp'
   },
   {
-    link: 'https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2023/12/Experts-Funding-Group-Best-MCA-Leads-Client.webp'
+    title: 'https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2023/12/Experts-Funding-Group-Best-MCA-Leads-Client.webp'
   },
   {
-    link: 'https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/brand-7.webp'
+    title: 'https://businessleadsworld.com/best-mca-leads/wp-content/uploads/2024/05/brand-7.webp'
   }
 ];
 
